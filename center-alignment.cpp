@@ -6,23 +6,9 @@ void space_center_function(string);//function declaration
 
 int main()
 {
-	string example_text;
-		
-	example_text ="asd asdas 43643s fiuqh";
-	space_center_function(example_text);
-		
-	example_text ="asdas32632632622222222222222222222222222222222321351235"; 
-	space_center_function(example_text);
-                                                                                                      //This is how you display text
-	example_text ="";                                                                                 //Save the text into tempatory variable <example_text>
-	space_center_function(example_text);                                                              //and call function <space_function(example_text)> pass the example_text
-	                                                                                                                                                         
-	example_text ="asdas13";
-	space_center_function(example_text);
-		
-	example_text ="sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss";
-	space_center_function(example_text);
-		
+
+	space_center_function("asd asdas 43643s fiuqh");
+
 		
 		
 }
